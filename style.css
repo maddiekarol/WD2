@@ -7,10 +7,6 @@ grid-template-areas:
   "footer footer"
 }
 
-div {
-height:60px;
-}
-
 .header {
    background-color:red;
    grid-area:header;
