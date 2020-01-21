@@ -8,13 +8,16 @@ grid-template-areas:
   "nav main"
   "footer footer"
 }
-
+<body>
+background:linear-gradient to right: lightgreen,teal;
+</body>
 .header {
    background-color:red;
    grid-area:header;
   }
 
 .nav {
+   background:rgba(0,0,0,2);
    background-color:blue;
    grid-area:nav;
   }
