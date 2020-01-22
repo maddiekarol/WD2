@@ -18,3 +18,28 @@ body {
   font-family:Veradana;
   margin:0;
   }
+header h1 {
+meduiumspringgreen;text-shadow:2px 2px 5px navy;
+ font-sie:5vw;
+}
+header h3 {
+  color:navy;
+  font-size:2vw;
+}
+main h2 {
+  color: navy;
+  font-size:3em;
+}
+nav a {
+  color:navy;
+}
+header {
+  background:rgba(0,0,0,2);
+}
+ nav {
+   background:rgba(0,0,0,2)
+}
+ main {
+   background:rgba(0,0,0,2)
+   padding:5px;
+}
