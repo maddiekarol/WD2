@@ -8,11 +8,9 @@ grid-gap:.5em;
   "nav main"
   "footer footer"
 }
-<body>
-background:linear-gradient to right: lightgreen,teal;
-</body>
-.header {
-   background-color:red;
+header {
+   background:rgba(0,0,0,2);
+}
    grid-area:header;
   }
 body {
