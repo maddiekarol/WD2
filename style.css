@@ -45,3 +45,12 @@ header {
 footer {
   background:rgba(0,0,0,2);
 }
+main h2 {
+  color:navy;
+}
+main p {
+  color:white;
+}
+footer p {
+  color:white;
+}
