@@ -12,7 +12,7 @@ header {
    background:rgba(0,0,0,2);
 }
 body {
-  background:linear-gradient(to right, lightgreen, teal)
+  background:linear-gradient(to right, lightgreen, teal);
   font-family:Verdana;
   margin:0;
   }
