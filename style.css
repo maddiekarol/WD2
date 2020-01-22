@@ -24,7 +24,9 @@ header h3 {
 nav a {
   color:navy;
 }
-
+nav li {
+  list-style-type:none;
+}
  main {
    background:rgba(0,0,0,.2);
    padding:5px;
