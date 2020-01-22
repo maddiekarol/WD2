@@ -14,7 +14,7 @@ header {
    grid-area:header;
   }
 body {
-  background:linear-gradient(to right,lightgreen,teal)
+  background:linear-gradient(to right, lightgreen, teal)
   font-family:Veradana;
   margin:0;
   }
