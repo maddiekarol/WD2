@@ -36,9 +36,12 @@ header {
   background:rgba(0,0,0,2);
 }
  nav {
-   background:rgba(0,0,0,2)
+   background:rgba(0,0,0,2);
 }
  main {
-   background:rgba(0,0,0,2)
+   background:rgba(0,0,0,2);
    padding:5px;
+}
+footer {
+  background:rgba(0,0,0,2);
 }
