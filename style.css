@@ -11,8 +11,6 @@ grid-gap:.5em;
 header {
    background:rgba(0,0,0,2);
 }
-   grid-area:header;
-  }
 body {
   background:linear-gradient(to right, lightgreen, teal)
   font-family:Verdana;
