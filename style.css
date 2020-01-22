@@ -15,7 +15,12 @@ background:linear-gradient to right: lightgreen,teal;
    background-color:red;
    grid-area:header;
   }
-
+body {
+  background:linear-gradient(to right,lightgreen,teal)
+  font-family:Veradana;
+  margin:0;
+  }
+  
 .nav {
    background:rgba(0,0,0,2);
    background-color:blue;
