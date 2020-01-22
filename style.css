@@ -20,19 +20,3 @@ body {
   font-family:Veradana;
   margin:0;
   }
-  
-.nav {
-   background:rgba(0,0,0,2);
-   background-color:blue;
-   grid-area:nav;
-  }
-
-.main {
-   background-color:yellow;
-   grid-area:main;
-  }
-
-.footer {
-   background-color:purple;
-   grid-area:footer;
-  }
