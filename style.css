@@ -6,15 +6,19 @@ body {
 header {
    background:rgba(0,0,0,.2);
    grid-area:header;
+text-align: center;
 }
 header h1 {
-color:meduimspringgreen;
+color:mediumspringgreen;
   text-shadow:2px 2px 5px navy;
  font-size:5vw;
+text-align: center;
 }
 header h3 {
   color:navy;
   font-size:2vw;
+text-align: center;
+padding: 0;
 }
 
  nav {
@@ -54,6 +58,7 @@ a:hover {
 main h2 {
   color: navy;
   font-size:2em; 
+text-align: center;
 }
 
 main p {
@@ -62,6 +67,7 @@ main p {
 footer {
   background:rgba(0,0,0,.2);
   grid-area:footer;
+text-align: center;
 }
 footer p {
   color:white;
