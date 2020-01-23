@@ -10,7 +10,7 @@ header {
 header h1 {
 color:meduiumspringgreen;
   text-shadow:2px 2px 5px navy;
- font-sie:5vw;
+ font-size:5vw;
 }
 header h3 {
   color:navy;
@@ -28,7 +28,7 @@ nav ul {
   list-style-type:none;
 }
 nav ul { 
-  list: Desitnation, Special, Travel Blog, Contact Us;
+  left: Desitnation, Special, Travel Blog, Contact Us;
 }
  main {
    background:rgba(0,0,0,.2);
