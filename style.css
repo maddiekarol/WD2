@@ -122,6 +122,23 @@ text-align:center;
   grid-area:bottom;
    color:white;
 }
+figure {
+background:rgba(0,0,0,.2);
+margin:0;
+color:navy;
+font-size:1em;
+font-weight:bold;
+}
+.fig1{
+grid-area:fig1;
+}
+.fig2{
+grid-area:fig2;
+text-align:center
+}
+section {
+grid-area:section;
+}
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
@@ -149,6 +166,17 @@ text-align:center;
     "bottom"
     "footer";
     }
+.container3{ 
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header"
+     "nav "
+    "fig2"
+    "footer";
+}
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -197,8 +225,17 @@ text-align:center;
     "bottom bottom"
     "footer footer";
     }
-
-
+.container3 {
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header header"
+     "nav main"
+    "fig2 fig2"
+    "footer footer";
+}
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -236,7 +273,23 @@ text-align:center;
     "nav main bottom"
     "footer footer footer";
     }
-	
+.container3 {
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header header"
+     "nav main"
+    "fig2 fig2"
+    "footer footer";
+}
+.nestedgrid {
+  display:grid;
+  grid-template-columns:1fr auto;
+  grid-template-areas:
+  "section fig1";
+}	
 
 	
 
