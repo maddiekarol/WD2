@@ -139,6 +139,48 @@ text-align:center
 section {
 grid-area:section;
 }
+.div1 {
+grid-area:div1;
+}
+.div2 {
+grid-area:div2;
+}
+form {
+    background-color:darkseagreen;
+    width:90%;
+    margin:auto;
+    color:white;
+    padding:10px;
+}
+
+.button {
+  padding: 5px;
+  color: lightseagreen;
+  background-color: navy;
+}
+
+input {
+  margin: 1px 0 10px 0;
+}
+
+.call {
+    color:navy;
+    text-align:center;
+    font-size:2em;
+    background-color:darkseagreen;
+    width:60%;
+    padding: 5px 0 0 0;
+    margin:10px auto 0 auto;
+    cursor:pointer;
+}
+
+.phone{
+    color:darkseagreen;
+    background-color:navy;
+    padding:5px;
+    text-align:center;
+    font-size:.75em;
+}
 /*---------------------------Mobile Layout Styles----------------------------*/
 .container1 { /*for index.html*/
   display: grid;
@@ -177,6 +219,41 @@ grid-area:section;
     "fig2"
     "footer";
 }
+.container4{ 
+  display: grid;
+  grid-template-columns:100%;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header"
+     "nav"
+     "main"
+     "footer";
+}
+.nestedgrid {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "section"
+  "fig1";
+}	
+
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "div1"
+  "div2";
+}
+.nestedgrid3 {
+display: grid;
+grid-gap:.5em;
+justify-items:center;
+align-items:end;
+grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+	
+
 /*This stuff is for the hamburger menu*/
 .toggleNav {
     display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
@@ -214,7 +291,6 @@ grid-area:section;
     "aside aside"
     "footer footer";
     }
-@media only screen and (min-width: 480px)  {
 .container2 { /*for index.html*/
   grid-template-columns:auto 1fr;
   grid-template-areas:
@@ -236,6 +312,31 @@ grid-area:section;
     "fig2 fig2"
     "footer footer";
 }
+.container4{ 
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header header"
+     "nav main"
+     "footer footer";
+}
+.nestedgrid {
+  display:grid;
+  grid-template-columns:1fr auto;
+  grid-template-areas:
+  "section"
+  "fig1";
+}	
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-areas:
+  "div1"
+  "div2";
+}	
+
 /* Below will change from hamburger menu to side navigation*/
   
 .toggleNav {
@@ -284,13 +385,28 @@ grid-area:section;
     "fig2 fig2"
     "footer footer";
 }
+.container4{ 
+  display: grid;
+  grid-template-columns:auto 1fr;
+  grid-gap:.5em;
+  margin:1%;
+  grid-template-areas:
+     "header header"
+     "nav main"
+     "footer footer";
+}
 .nestedgrid {
   display:grid;
   grid-template-columns:1fr auto;
   grid-template-areas:
   "section fig1";
 }	
-
+.nestedgrid2 {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas:
+  "div1 div2";
+}	
 	
 
 	}
